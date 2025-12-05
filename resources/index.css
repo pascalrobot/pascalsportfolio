@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("");
+  background-image: url("https://github.com/pascalrobot/pascalsportfolio/blob/948bd318f843de8686097244f65f73280cff589a/imgs/SFONDO.png?raw=true");
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -26,5 +26,14 @@ body {
 }
 
 @media (min-width: 1200px) {
+
+.desktop {
+    height: 500px;
+    width: auto;
+    margin-left: 9%;
+    margin-right: 9%; 
+    background-color: rgba(126, 131, 135, 0.532); 
+    padding: 20px; 
+}
     
 }
