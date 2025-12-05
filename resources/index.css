@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("https://github.com/pascalrobot/pascalsportfolio/blob/3350d226e26015fa4bee69759c5eadb12a184a16/imgs/SFONDO.png?raw=truehttps://github.com/pascalrobot/pascalsportfolio/blob/cfa5ae2f8edc3c78da15bc7a382cf600efcd276a/imgs/SFONDO.jpg?raw=true");
+  background-image: url("https://github.com/pascalrobot/pascalsportfolio/blob/cfa5ae2f8edc3c78da15bc7a382cf600efcd276a/imgs/SFONDO.jpg?raw=true");
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -17,6 +17,17 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+.header {
+    height: 30px; 
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 140px; 
+    border: solid black 2 pixel; 
+    box-shadow: 5px 10px 30px rgb(49, 49, 49); 
+    width: auto;
+    background-color: aquamarine;
 }
 
 @media (max-width: 890px) {
@@ -34,7 +45,7 @@ body {
     margin-right: 9%; 
     background-color: rgba(221, 221, 221);
     padding: 20px; 
-    margin-top: 150px;
+    margin-top: 10px;
     border: groove;
     box-shadow: 5px 10px 30px rgb(49, 49, 49);
 }
