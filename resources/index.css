@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("https://github.com/pascalrobot/pascalsportfolio/blob/948bd318f843de8686097244f65f73280cff589a/imgs/SFONDO.png?raw=true");
+  background-image: url("https://github.com/pascalrobot/pascalsportfolio/blob/3350d226e26015fa4bee69759c5eadb12a184a16/imgs/SFONDO.png?raw=true");
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -32,8 +32,11 @@ body {
     width: auto;
     margin-left: 9%;
     margin-right: 9%; 
-    background-color: rgba(126, 131, 135, 0.532); 
+    background-color: rgba(221, 221, 221);
     padding: 20px; 
+    margin-top: 150px;
+    border: groove;
+    box-shadow: 5px 10px 30px rgb(49, 49, 49);
 }
     
 }
