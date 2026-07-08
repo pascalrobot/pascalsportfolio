@@ -1,9 +1,8 @@
 
 * {
-  margin: 0;
-  padding: 0; 
   line-height: 1.3;
   user-select: text;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -14,18 +13,19 @@ body {
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .header {
     margin-left: 9%;
     margin-right: 9%;
-    margin-top: 140px; 
+    margin-top: 110px; 
     border: groove black; 
     box-shadow: 5px 10px 30px rgb(49, 49, 49); 
     width: auto;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
  @font-face {
@@ -36,11 +36,65 @@ body {
 .title {
     font-family: myFontTitle;
     color: rgb(255, 255, 255); 
-    font-size: 90px;
-    text-indent: 17%;
-    padding-top: -8px;
-    text-shadow: 5px 10px 30px rgb(49, 49, 49);
+    font-size: 69px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    padding-bottom: 10px;
+    font-kerning: none;
+    margin-left: 15%;
+    height: inherit; 
+    position: relative;
+    width: 600px;
 }
+
+.info {
+    border-radius: 30px;
+    background-color: rgb(196, 196, 196);
+    border: 2px solid rgb(121, 63, 63);; 
+    font-size: 16px;
+    font-family: monospace;
+    width: 150px;
+    font-weight: bold;
+    margin-left: 5%;
+    height: fit-content;
+    position: relative;
+}
+
+.contatti {
+    border-radius: 30px;
+    background-color: rgb(196, 196, 196);
+    border: 2px solid rgb(121, 63, 63);; 
+    font-size: 16px;
+    margin-left: 2%; 
+    margin-right: 8%;
+    font-family: monospace;
+    width: 150px;
+    font-weight: bold;
+    height: fit-content;
+    position: relative;
+}
+
+.desktop {
+    height: 500px;
+    width: auto;
+    margin-left: 9%;
+    display: -webkit-box; 
+    display: -ms-flexbox;  
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    margin-right: 9%; 
+    background-color: rgba(221, 221, 221, 0.858);
+    padding: 20px; 
+    margin-top: 10px;
+    border: groove;
+    box-shadow: 5px 10px 30px rgb(49, 49, 49);
+}
+
+.icon {
+    max-width: 200px;
+    height: 200px;
+}
+
 
 @media (max-width: 890px) {
 }
@@ -50,16 +104,5 @@ body {
 
 @media (min-width: 1200px) {
 
-.desktop {
-    height: 500px;
-    width: auto;
-    margin-left: 9%;
-    margin-right: 9%; 
-    background-color: rgba(221, 221, 221, 0.707);
-    padding: 20px; 
-    margin-top: 10px;
-    border: groove;
-    box-shadow: 5px 10px 30px rgb(49, 49, 49);
-}
     
 }
